@@ -19,6 +19,16 @@ Requirements:
 
 *If you are planning to use a python install from the USB, please create a shortcut to run the script using Python on the USB
 
+Stage 1 Popup
+
 ![Popup 1](https://i.imgur.com/HfaCvMo.png)
+
+Stage 2 Popup
+
 ![Popup 2](https://i.imgur.com/DwWVnUH.png)
+
+Error Popup (if the script fails to import one or more libraries
+
 ![Error 1](https://i.imgur.com/O7FBzL8.png)
+
+Written in Python 3.7.4 on Windows 10
