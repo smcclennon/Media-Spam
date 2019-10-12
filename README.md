@@ -10,7 +10,7 @@ Features:
 - Confirmations through popups
 - Cleanup Script (reset.pyw) [Removes media folder in user-home]
 
-View [Media Spam](https://github.com/smcclennon/Media-Spam/releases)
+View [Media Spam Releases](https://github.com/smcclennon/Media-Spam/releases)
 
 Requirements:
 - Run this script from a usb
