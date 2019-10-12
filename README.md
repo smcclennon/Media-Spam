@@ -18,9 +18,10 @@ This script has no console window and will open a configurable list of URL's and
 View [Media Spam Releases](https://github.com/smcclennon/Media-Spam/releases)
 
 # Installation
-- Unzip items in Media-Spam.zip to the same location
+- Unzip items in Media-Spam.zip to the same location (preferably a USB)
 - Customise 'memes.txt' with URL's of your choice (to open)
 - Customise media files (.mp4 .mov .mp3 .png .jpg) in the folder where 'media.pyw' is to the files of your choice (to open)
+- Run the script (preferably from a USB)
 
 Requirements:
 - Run this script from a usb
