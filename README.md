@@ -10,6 +10,11 @@ Features:
 - Confirmations through popups
 - Cleanup Script (reset.pyw) [Removes media folder in user-home]
 
+**Notices:**
+- This script will leave a folder named 'média' in your user-home directory with all of the media files used on the prior execution of the script. To remove this, run 'reset.pyw'
+- CPU and RAM usage will continue to increase until this script is stopped (as browser tabs and media files will continue to be opened)
+- There is no easy way to stop this script, that is how it was designed. To stop it, you will need to kill it (via taskmanager for example), or sign out, or shutdown/restart the computer to stop the script
+
 View [Media Spam Releases](https://github.com/smcclennon/Media-Spam/releases)
 
 Requirements:
