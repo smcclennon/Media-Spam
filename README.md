@@ -39,9 +39,13 @@ Stage 2 Popup
 
 ![Popup 2](https://i.imgur.com/DwWVnUH.png)
 
-Error Popup (if the script fails to import one or more libraries
+Import Error Popup (if the script fails to import one or more libraries
 
 ![Error 1](https://i.imgur.com/O7FBzL8.png)
+
+Media Load Error Popup
+
+![Error 2](https://i.imgur.com/qlbBecd.png)
 
 **reset.pyw** Success
 
