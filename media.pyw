@@ -1,14 +1,14 @@
 #Media Spam
-build=3
+ver='1.2.0'
 #github.com/smcclennon/Media-Spam
 
 
 try:
     from ctypes import windll
     import glob,webbrowser,shutil,random; from pathlib import Path
-    windll.user32.MessageBoxW(0, "Stage 1/2\nLibraries successfully imported!\nPress OK to begin loading media\nDon't unplug your USB yet! You will recieve another popup when it is safe to do so", "Media Spam: Build "+str(build), 0)
+    windll.user32.MessageBoxW(0, "Stage 1/2\nLibraries successfully imported!\nPress OK to begin loading media\nDon't unplug your USB yet! You will recieve another popup when it is safe to do so", "Media Spam v"+str(ver), 0)
 except:
-    windll.user32.MessageBoxW(0, "Error: Failed to import one or more requirements.\nVisit github.com/smcclennon/Media-Spam for support", "Media Spam: Build "+str(build), 0)
+    windll.user32.MessageBoxW(0, "Error: Failed to import one or more requirements.\nVisit github.com/smcclennon/Media-Spam for support", "Media Spam: v"+str(ver), 0)
     exit()
 
 
@@ -74,10 +74,10 @@ for b in glob.glob('*.mov'):
 
 if a==[]: #if no media files were found
     media=0
-    windll.user32.MessageBoxW(0, "Stage 2/2\nError: No media found! URL's from memes.txt will still be opened.\nVisit github.com/smcclennon/Media-Spam for support\nPress OK to continue", "Media Spam: Build "+str(build), 0)
+    windll.user32.MessageBoxW(0, "Stage 2/2\nError: No media found! URL's from memes.txt will still be opened.\nVisit github.com/smcclennon/Media-Spam for support\nPress OK to continue", "Media Spam v"+str(ver), 0)
 else:
     media=1
-    windll.user32.MessageBoxW(0, "Stage 2/2\nMedia loaded! You can now disconnect your USB\nPress OK to begin", "Media Spam: Build "+str(build), 0)
+    windll.user32.MessageBoxW(0, "Stage 2/2\nMedia loaded! You can now disconnect your USB\nPress OK to begin", "Media Spam v"+str(ver), 0)
 
 
 while True:
